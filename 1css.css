@@ -1,0 +1,30 @@
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    gap: 100px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+}
+.img-cent{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+.img-cent img{
+    width: 400px;
+    height: 300px;
+}
+/* 横线 */
+h1{
+    text-align: center;
+}
