@@ -41,3 +41,12 @@ a:hover{
     color: black;
     background-color: #c1df9b;
 }
+/* 针对苹果手机Safari的专属修复 */
+@media screen and (max-width: 768px) {
+body{
+    writing-mode: horizontal-tb !important; /* 关键：强制横向 */
+    text-orientation: mixed !important;    /* 保证文字不旋转 */
+    word-wrap: break-word !important;      /* 自动换行，不挤压 */
+    background-color: #FFF9F0;
+}
+}
